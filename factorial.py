@@ -2,12 +2,12 @@
     Implementing a factorial program for a github repository 
 '''
 
-def factorial(a) -> int:
+def factorial(r) -> int:
     f: int =  1
     i: int = 1
-    while ( i <= a):
+    while ( i <= r):
         f *= i
         i += 1
-    print(f"{a}! = {f}")
+    print(f"{r}! = {f}")
     
     
